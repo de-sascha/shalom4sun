@@ -38,4 +38,3 @@ This is a shell script that automates the setup of a Docker environment for ioBr
 - influx: a directory that contains a Dockerfile  FROM influxdb:1.8%
 - docker-compose.yaml: a file that defines the Docker containers for ioBroker, Grafana, and InfluxDB
 ```
-#### The script checks if the directories already exist and overrides them if they do. It then creates the directories and files, and creates the docker-compose.yaml file with the appropriate configuration.
