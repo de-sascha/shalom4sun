@@ -1,3 +1,4 @@
+# Shalom4Sun
 ## Run Locally
 
 Clone the project
@@ -12,11 +13,8 @@ Go to the project directory
   cd my-project
 ```
 
-# Script to set up a Docker environment for ioBroker, Grafana, and InfluxDB
+## Script to set up a Docker environment for ioBroker, Grafana, and InfluxDB
 
-
-
-## Shalom4Sun
 
 ### - Script to set up a Docker environment for ioBroker, Grafana, and InfluxDB
 
