@@ -33,8 +33,15 @@ Go to the project directory
 
 This is a shell script that automates the setup of a Docker environment for ioBroker, Grafana, and InfluxDB. The script creates the following directories and files:
 ```bash
-- iobroker: a directory that contains a Dockerfile FROM iobroker:latest
-- grafana: a directory that contains a Dockerfile FROM grafana/grafana:latest
-- influx: a directory that contains a Dockerfile  FROM influxdb:1.8%
+- iobroker: a directory  in /tmp/iobroker that contains a Dockerfile FROM iobroker:latest
+- grafana: a directory in /tmp/grafana that contains a Dockerfile FROM grafana/grafana:latest
+- influx: a directory in /tmp/influx that contains a Dockerfile FROM influxdb:1.8%
 - docker-compose.yaml: a file that defines the Docker containers for ioBroker, Grafana, and InfluxDB
 ```
+
+## houskeeping.sh
+```bash
+- Little Houskeeping helper.
+remove /tmp/iobroker, /tmp/grafana, /tmp/influx, /tmp/docker-compose.yaml 
+```
+
