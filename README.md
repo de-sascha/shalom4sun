@@ -29,8 +29,8 @@ This is a shell script that automates the setup of a Docker environment for ioBr
 - docker-compose.yaml: a file that defines the Docker containers for ioBroker, Grafana, and InfluxDB<br><br>
 ### The script checks if the directories already exist and overrides them if they do. It then creates the directories and files, and creates the docker-compose.yaml file with the appropriate configuration.
 
-# Usage
-# To use the script, follow these steps:
+### Usage
+## To use the script, follow these steps:
 
 - Clone or download this repository to your local machine.<br>
 - Open a terminal window and navigate to the directory where the repository is located.<br>
