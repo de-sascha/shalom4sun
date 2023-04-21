@@ -12,7 +12,7 @@ Go to the project directory
   cd my-project
 ```
 
-Script to set up a Docker environment for ioBroker, Grafana, and InfluxDB
+# Script to set up a Docker environment for ioBroker, Grafana, and InfluxDB
 
 
 
