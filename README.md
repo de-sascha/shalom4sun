@@ -11,6 +11,8 @@ Go to the project directory
 
 ```bash
   cd my-project
+  chmod +x ./setup.sh
+  
 ```
 
 ## Script to set up a Docker environment for ioBroker, Grafana, and InfluxDB
