@@ -3,7 +3,7 @@
 Clone the project
 
 ```bash
-  git clone https://github.wdf.sap.corp/cis-backup/ccloud-script-miscellaneous.git
+  git clone https://github.com/de-sascha/shalom4sun.git
 ```
 
 Go to the project directory
