@@ -5,6 +5,9 @@ function printLine() {
   echo "--------------------------------------------------------"
 }
 
+# Change current working directory to /tmp/
+cd /tmp/
+
 # Check if directories exist and override them
 printLine
 echo "Checking if directories already exist..."
@@ -102,11 +105,24 @@ volumes:
   influxData:
   iobrokerData:
 EOF
-
+printLine
 echo "Done!"
+printLine
+echo ""
+printLine
+echo "Files stores in /tmp/"
+printLine
+printLine
+ls -lahr /tmp/iobroker
+ls -lahr /tmp/grafana
+ls -lahr /tmp/influx
+printLine
+printLine
 echo ""
 echo "Steps to run the containers:"
 echo "1. Replace <DB-NAME>, <USER>, and <PASSWORD> in docker-compose.yaml with appropriate values."
 echo "2. Run 'docker-compose up -d' to start the containers in detached mode."
 printLine
+printLine
+echo "DONE!"
 
