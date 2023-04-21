@@ -22,11 +22,12 @@ Script to set up a Docker environment for ioBroker, Grafana, and InfluxDB
 
 
 This is a shell script that automates the setup of a Docker environment for ioBroker, Grafana, and InfluxDB. The script creates the following directories and files:
-
+```bash
 - iobroker: a directory that contains a Dockerfile <br>FROM iobroker:latest<br><br>
 - grafana: a directory that contains a Dockerfile <br>FROM grafana/grafana:latest<br><br>
 - influx: a directory that contains a Dockerfile  <br>FROM influxdb:1.8%<br><br>
 - docker-compose.yaml: a file that defines the Docker containers for ioBroker, Grafana, and InfluxDB<br><br>
+```
 #### The script checks if the directories already exist and overrides them if they do. It then creates the directories and files, and creates the docker-compose.yaml file with the appropriate configuration.
 
 #### Usage
@@ -38,7 +39,8 @@ This is a shell script that automates the setup of a Docker environment for ioBr
 - Run the shell script by entering the following command: ./setup.sh<
 - # Replace <DB-NAME>, <USER>, and <PASSWORD> in the docker-compose.yaml file with appropriate values.
 - Run the Docker containers in detached mode by entering the following command: docker-compose up -d
-- Note that the script adds some delay between the different steps to avoid any issues that may arise if the different steps execute too quickly.
+- Note that the script adds some delay between the different steps.
+- To avoid any issues that may arise if the different steps execute too quickly.
   
 ```
 
