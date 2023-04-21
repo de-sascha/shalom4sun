@@ -35,7 +35,7 @@ This is a shell script that automates the setup of a Docker environment for ioBr
 - Clone or download this repository to your local machine.<br>
 - Open a terminal window and navigate to the directory where the repository is located.<br>
 - Run the shell script by entering the following command: ./setup.sh<br>
-- Replace <DB-NAME>, <USER>, and <PASSWORD> in the docker-compose.yaml file with appropriate values.<br>
+- # Replace <DB-NAME>, <USER>, and <PASSWORD> in the docker-compose.yaml file with appropriate values.<br>
 - Run the Docker containers in detached mode by entering the following command: docker-compose up -d<br>
 - Note that the script adds some delay between the different steps to avoid any issues that may arise if the different steps execute too quickly.<br>
 
