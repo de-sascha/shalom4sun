@@ -39,7 +39,7 @@ This is a shell script that automates the setup of a Docker environment for ioBr
 - docker-compose.yaml: a file that defines the Docker containers for ioBroker, Grafana, and InfluxDB
 ```
 
-## houskeeping.sh
+#### houskeeping.sh
 ```bash
 - Little Houskeeping helper.
 remove /tmp/iobroker, /tmp/grafana, /tmp/influx, /tmp/docker-compose.yaml 
